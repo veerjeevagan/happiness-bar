@@ -16,7 +16,7 @@ from app import APP_ROOT
 
 face_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 #face_classifier=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-classifier = load_model('C:/Users/MahaveerJeevagan/emotiondetection/EmotionDetectionModel.h5')
+classifier = load_model(os.path.join(APP_ROOT,'EmotionDetectionModel.h5'))
 
 class_labels=['Angry','Happy','Neutral','Sad','Surprise' ]
 
