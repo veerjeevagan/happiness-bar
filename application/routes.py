@@ -2,8 +2,8 @@ import os
 
 from flask import render_template, request
 from werkzeug.utils import redirect
-from app import application,APP_ROOT
-from app.process import predict_img
+from application import application,APP_ROOT
+from application.process import predict_img
 
 
 @application.route('/')

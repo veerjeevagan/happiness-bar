@@ -12,7 +12,7 @@ from keras.preprocessing import image
 import cv2
 import numpy as np
 import os
-from app import APP_ROOT
+from application import APP_ROOT
 
 face_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 #face_classifier=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')

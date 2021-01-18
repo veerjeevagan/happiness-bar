@@ -9,4 +9,4 @@ APP_ROOT=os.path.dirname(os.path.abspath(__file__))
 # application = Flask(__name__)
 application.config.from_object(Config)
 
-from app import routes
+from application import routes
