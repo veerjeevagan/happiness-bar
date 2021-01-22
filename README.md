@@ -11,7 +11,7 @@ Result : The happiness bar fills if a happy/smiling picture is uploaded.
 any image with people simling will trigger this.
 
 ## Cons:
-1.Accuracy is only 60% in this trained model(my configurations), so it doesn't work well in real time
+1.Accuracy is only 60% in this trained model(my configurations), so it doesn't work well in real time  
 2.Pictures with people looking at the camera only works.
 
 ## Resources and guides used for this project are given below :
